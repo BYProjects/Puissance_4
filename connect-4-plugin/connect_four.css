@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#connect-four {
+  height: auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  background-color: blue;
+  border: 1em solid navy;
+  justify-content: center;
+  align-items: center; }
+
+.col {
+  display: flex;
+  flex-direction: column-reverse; }
+
+.col:hover {
+  background-color: lightblue; }
+
+.tile {
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+  background-color: white;
+  margin: 0.2em; }
+
+@media (max-width: 576px) {
+  .tile {
+    width: 2em;
+    height: 2em; } }
+@media (max-width: 992px) {
+  .tile-sm {
+    width: 4em;
+    height: 4em; } }
+
+/*# sourceMappingURL=connect_four.css.map */
