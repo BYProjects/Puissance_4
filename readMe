@@ -1,0 +1,34 @@
+# Puissance 4
+
+-- Description --
+
+Puissance 4 est une application web qui permet de jouer au jeu de société du même nom sur navigateur
+
+-- Préréquis --
+
+- Node.js installé
+- http-server installé sur votre ordinateur (requiert node.js)
+
+-- Installation --
+
+1. Télécharger le ZIP du projet et l'extraire dans un dossier de votre choix.
+
+-- Execution --
+
+1. Dans le dossier racine, ouvrez le terminal et entrez "http-server" (sans les guillemet)
+
+2. La page web s'ouvrira par défaut sur "http://localhost:8080" (il est possible qu'elle s'ouvre sur un autre port si 8080 est déjà pris)
+
+3. Profiter du jeu !
+
+
+** Il s'agit là d'un de mes premiers projets en javascript, malheureusement, certaines features sont donc bugger / manquante **
+
+Bugs connu :
+- Il est impossible de placer des jetons sur la colonne de droite
+
+Features manquante :
+- Restart du jeu lors de la fin de partie
+- Comptage des points pour chaque victoire
+- Pseudo modifiable pour chaque joueurs
+- Victoire par les diagonales
